@@ -1,0 +1,23 @@
+{
+  "name": "dungeon-rpg-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Colyseus real-time server untuk Web-Based Multiplayer RPG (Phase 1)",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node src/smoke-test.js",
+    "test:combat": "node src/combat-test.js"
+  },
+  "dependencies": {
+    "@colyseus/schema": "^2.0.0",
+    "@colyseus/ws-transport": "^0.15.0",
+    "colyseus": "^0.15.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "colyseus.js": "^0.15.0"
+  }
+}
